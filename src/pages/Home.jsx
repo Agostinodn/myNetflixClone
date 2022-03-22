@@ -5,7 +5,7 @@ import {
   AccordionContainer,
   HeaderContainer,
 } from "../containers";
-import { Accordion, Feature, OptForm } from "../components";
+import { Feature, OptForm } from "../components";
 
 export default function Home() {
   return (

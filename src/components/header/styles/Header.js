@@ -54,7 +54,7 @@ export const ButtonLink = styled(Link)
   border-radius: 3px;
   padding: 8px 17px;
   cursor: pointer;
-  text-decoraton: none;
+  text-decoration: none;
   box-sizing: border-box;
 
   &:hover {

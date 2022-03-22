@@ -1,6 +1,6 @@
 import React from "react";
 import faqs from "../data/faqs.json";
-import { Accordion, OptForm, Break } from "../components";
+import { Accordion } from "../components";
 
 export default function AccordionContainer({ children }) {
   return (
