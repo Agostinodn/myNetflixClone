@@ -1,10 +1,10 @@
 import React from "react";
 import { Navigate, Outlet } from "react-router-dom";
 
-export function PublicRoute({ isLogged }) {
-  return isLogged ? <Navigate to="/browse" /> : <Outlet />;
+export function PublicRoute({ isAnonymous }) {
+  return isAnonymous ? <Outlet /> : <Navigate to="/browse" />;
 }
 
-export function PrivateRoute({ isLogged }) {
-  return isLogged ? <Outlet /> : <Navigate to="/signin" />;
+export function PrivateRoute({ isAnonymous }) {
+  return isAnonymous ? <Navigate to="/signin" /> : <Outlet />;
 }

@@ -42,7 +42,7 @@ export default function Signup() {
 
   return (
     <>
-      <HeaderContainer style={{ minHeight: "100vh" }}>
+      <HeaderContainer style={{ height: "100vh" }}>
         <Form>
           <Form.Title>Sign Up</Form.Title>
           {error && <Form.Error>{error}</Form.Error>}
