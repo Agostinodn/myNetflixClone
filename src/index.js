@@ -10,7 +10,7 @@ render(
   <>
     <FirebaseContext.Provider value={firebase}>
       <App />
-    </FirebaseContext.Provider>{" "}
+    </FirebaseContext.Provider>
   </>,
   document.getElementById("root")
 );

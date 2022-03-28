@@ -6,7 +6,6 @@ import {
   HeaderContainer,
 } from "../containers";
 import { Feature, OptForm } from "../components";
-import styled from "styled-components";
 
 export default function Home() {
   return (
