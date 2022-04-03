@@ -11,7 +11,7 @@ export default function HeaderContainer({ children, ...restProp }) {
           alt="Netflix"
           src="./images/misc/logo.svg"
         />
-        <Header.ButtonLink to={ROUTES.SIGN_IN}>Sing In</Header.ButtonLink>
+        <Header.ButtonLink to={ROUTES.SIGN_IN}>Login</Header.ButtonLink>
       </Header.Frame>
       {children}
     </Header>

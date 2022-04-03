@@ -1,8 +1,8 @@
 import styled from 'styled-components/macro';
 
-export const Container = styled.div``;
+export const Container = styled.div ``;
 
-export const Overlay = styled.div`
+export const Overlay = styled.div `
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,7 +15,7 @@ export const Overlay = styled.div`
   margin: 0 20px;
 `;
 
-export const Inner = styled.div`
+export const Inner = styled.div `
   position: relative;
   width: 100%;
   max-width: 900px;
@@ -25,9 +25,10 @@ export const Inner = styled.div`
     height: 100%;
     width: 100%;
   }
+
 `;
 
-export const Close = styled.button`
+export const Close = styled.button `
   position: absolute;
   right: 15px;
   top: 15px;
@@ -61,7 +62,7 @@ export const Close = styled.button`
   }
 `;
 
-export const Button = styled.button`
+export const Button = styled.button `
   background-color: #e50914;
   border-color: #ff0a16;
   width: 115px;

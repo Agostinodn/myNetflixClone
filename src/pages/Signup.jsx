@@ -70,7 +70,7 @@ export default function Signup() {
           </Form.Base>
 
           <Form.Text>
-            Alrady a user? <Form.Link to="/signin">Sign in now.</Form.Link>
+            Alrady a user? <Form.Link to="/signin">login now.</Form.Link>
           </Form.Text>
           <Form.TextSmall>
             This page is protected by Google reCAPTCHA to ensure you're not a

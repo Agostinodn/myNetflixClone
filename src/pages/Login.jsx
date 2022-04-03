@@ -35,7 +35,7 @@ export default function Signin() {
     <>
       <HeaderContainer style={{ height: "100vh" }}>
         <Form>
-          <Form.Title>Sign In</Form.Title>
+          <Form.Title>Login</Form.Title>
           {error && <Form.Error>{error}</Form.Error>}
 
           <Form.Base onSubmit={handleSignIn} method="POST">
@@ -56,7 +56,7 @@ export default function Signin() {
               type="submit"
               data-testid="sign-in"
             >
-              Sign In
+              Login
             </Form.Submit>
           </Form.Base>
 

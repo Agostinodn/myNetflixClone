@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import * as ROUTES from "./routes/ConstantsRoutes";
 import { PrivateRoute, PublicRoute } from "./routes/PrivateRoutes";
-import { Home, Signin, Signup, Browse } from "./pages";
+import { Home, Login, Signup, Browse } from "./pages";
 import { useAuthListener } from "./hooks";
 
 export default function App() {
@@ -12,7 +12,7 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route element={<PublicRoute user={user} />}>
-          <Route path={ROUTES.SIGN_IN} element={<Signin />} />
+          <Route path={ROUTES.SIGN_IN} element={<Login />} />
           <Route path={ROUTES.SIGN_UP} element={<Signup />} />
           <Route index element={<Home />} />
           <Route path="*" element={<Home />} />
