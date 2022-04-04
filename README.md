@@ -1,7 +1,7 @@
 # myNetflixClone
 
 
-CLick - [My Netflix Clone](https://thunderous-souffle-2d623a.netlify.app) 
+CLick - [My Netflix Clone](https://netflixclone-adn.netlify.app) 
 
 ### 
 `
