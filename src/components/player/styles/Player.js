@@ -12,19 +12,20 @@ export const Overlay = styled.div `
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.75);
-  margin: 0 20px;
 `;
 
 export const Inner = styled.div `
   position: relative;
-  width: 100%;
+  width: 100vw;
   max-width: 900px;
   margin: auto;
+
 
   video {
     height: 100%;
     width: 100%;
   }
+
 
 `;
 
@@ -34,7 +35,7 @@ export const Close = styled.button `
   top: 15px;
   width: 22px;
   height: 22px;
-  opacity: 0.3;
+  opacity: 0.6;
   background-color: transparent;
   border: 0;
   cursor: pointer;
@@ -51,7 +52,7 @@ export const Close = styled.button `
     content: ' ';
     height: 22px;
     width: 2px;
-    background-color: #333;
+    background-color: #f3f3f3;
   }
 
   &:before {

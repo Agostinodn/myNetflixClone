@@ -17,8 +17,7 @@ export const Background = styled.div`
   min-height: 900px;
 
   @media (max-width: 1100px) {
-    ${({ dontShowOnSmallViewPort }) =>
-      dontShowOnSmallViewPort && `background: none;`}
+    background-position: center;
   }
 `;
 
@@ -78,10 +77,6 @@ export const Feature = styled(Container)`
   flex-direction: column;
   align-items: normal;
   width: 50%;
-
-  @media (max-width: 1100px) {
-    display: none;
-  }
 `;
 
 export const Text = styled.p`
@@ -89,6 +84,10 @@ export const Text = styled.p`
   font-size: 22px;
   line-height: normal;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+
+  @media (max-width: 480px) {
+    display: none;
+  }
 `;
 
 export const TextLink = styled.p`
@@ -114,6 +113,10 @@ export const FeatureCallOut = styled.h2`
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
   margin: 0;
+
+  @media (max-width: 480px) {
+    margin-bottom: 30px;
+  }
 `;
 
 export const Picture = styled.button`

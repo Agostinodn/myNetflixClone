@@ -1,6 +1,6 @@
-import React, { useState, useContext, createContext } from 'react';
-import ReactDOM from 'react-dom';
-import { Container, Button, Overlay, Inner, Close } from './styles/Player';
+import React, { useState, useContext, createContext } from "react";
+import ReactDOM from "react-dom";
+import { Container, Button, Overlay, Inner, Close } from "./styles/Player";
 
 export const PlayerContext = createContext();
 
@@ -21,7 +21,13 @@ Player.Video = function PlayerVideo({ src, ...restProps }) {
     ? ReactDOM.createPortal(
         <Overlay onClick={() => setShowPlayer(false)} data-testid="player">
           <Inner>
-            <video id="netflix-player" controls>
+            <video
+              id="netflix-player"
+              controls
+              autopictureinpicture="true"
+              autoplay="true"
+              playsinline="true"
+            >
               <source src={src} type="video/mp4" />
             </video>
             <Close />
@@ -36,7 +42,10 @@ Player.Button = function PlayerButton({ ...restProps }) {
   const { showPlayer, setShowPlayer } = useContext(PlayerContext);
 
   return (
-    <Button onClick={() => setShowPlayer((showPlayer) => !showPlayer)} {...restProps}>
+    <Button
+      onClick={() => setShowPlayer((showPlayer) => !showPlayer)}
+      {...restProps}
+    >
       Play
     </Button>
   );
