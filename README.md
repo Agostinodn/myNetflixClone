@@ -1,7 +1,7 @@
 # myNetflixClone
 
 
-CLick - [My Netflix Clone](https://netflixclone-adn.netlify.app) 
+CLick - [My Netflix Clone](https://my-netflix-clone-adn.netlify.app/) 
 
 ### 
 `
