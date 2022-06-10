@@ -1,11 +1,12 @@
 # myNetflixClone
 
 
-CLick - [My Netflix Clone](https://my-netflix-clone-adn.netlify.app/) 
+Click - [My Netflix Clone](https://my-netflix-clone-adn.netlify.app/) 
+
+### Effettua la registrazione, non è richiesta la verifica della mail oppure puoi usare questi dati :
 
 ### 
 `
-Login data:
 email: info@netflix.com
 /
 password: 123456
