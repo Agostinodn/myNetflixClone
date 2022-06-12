@@ -66,6 +66,9 @@ export const ButtonLink = styled(Link)`
   cursor: pointer;
   text-decoration: none;
   box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   &:hover {
     background-color: #f40612;
